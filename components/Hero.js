@@ -416,7 +416,7 @@ function Hero() {
           </div>
         </Link>
         {/* Contact-us */}
-        <div className="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto text-gray-900 rounded-lg shadow-lg">
+        <div className="max-w-screen-xl mb-20 mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto text-gray-900 rounded-lg shadow-lg">
           {/* Left Side */}
           <div class="flex flex-col justify-between">
             <div>
