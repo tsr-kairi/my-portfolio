@@ -6,6 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import RkImg from "../images/rkNew.jpg";
 import TsrBg from "../images/tsrbg.svg";
+import TsrBg1 from "../images/tsrbg 1.svg";
+import TsrBg2 from "../images/tsrbg 1.png";
 import StarTsr from "../images/meteorite_stars.svg";
 import LilPlusTsr from "../images/lil-plus-bg.svg";
 import MeteoritePlusLeft from "../images/meteorite_plus-left.svg";
@@ -44,11 +46,14 @@ function Hero() {
               <Image src={LilPlusTsr} alt="LilPlusTsr" className="" />
             </div>
           </div>
-          <div className="w-full sm:w-[35%] overflow-hidden mt-12 sm:mt-0">
-            <div className="relative z-50 w-[150px] sm:w-[380px] h-[150px] sm:h-[380px] rounded-full border-[10px] sm:border-[24px] border-solid border-[#002e4d]">
+          <div className="w-full sm:w-[33%] overflow-hidden mt-12 sm:mt-0">
+            <div className="relative sm:hidden z-50 w-[150px] sm:w-[400px] h-[150px] sm:h-[400px] rounded-full border-[10px] sm:border-[28px] border-solid border-[#002e4d]">
               <Image src={RkImg} alt="RkImg" className="rounded-full" />
             </div>
-            <div className="sm:hidden h-screen w-full min-w-[350px] absolute top-[565px] left-0">
+            <div className="hidden sm:flex absolute top-[70px] left-[290px]">
+              <Image src={TsrBg2} alt="TsrBg2" classNam e="" />
+            </div>
+            <div className="sm:hidden h-screen w-full min-w-[350px] absolute top-[580px] left-0">
               <Image src={TsrBg} alt="TsrBg" classNam e="" />
             </div>
           </div>
@@ -223,7 +228,7 @@ function Hero() {
             <button className="relative z-50 transform hover:scale-110 duration-500 ease-in-out origin-center transition bg-[#153956] border border-solid border-[#f07b61] text-[#f07b61] text-xl font-bold w-[160px] h-[50px] sm:ml-52">
               Case Studies
             </button>
-            <div className="absolute border border-solid border-[#f07b61] w-[160px] h-[50px] sm:left-[35.5rem] left-28 top-5 sm:top-[1rem]"></div>
+            <div className="absolute border border-solid border-[#f07b61] w-[160px] h-[50px] sm:left-[35.5rem] left-36 top-5 sm:top-[1rem]"></div>
           </div>
         </div>
 
@@ -342,22 +347,22 @@ function Hero() {
               </div>
             </div>
             <div className="sm:w-[60%] flex flex-col border-[8px] border-[#002e4d] sm:border-b-[8px] border-b-0">
-              <div className="p-8 flex flex-col text-white">
+              <div className="p-6 sm:p-8 flex flex-col text-white">
                 <h1 className="text-2xl text-[#f2a278] pb-8">About me</h1>
-                <p className="text-lg text-white">
+                <p className="text-base sm:text-lg text-white">
                   Life is my favorite art project. Whether I'm working with a
                   world-class team building a complex application, creating
                   funky illustrations, or designing my home office, I see
                   everything I do as an opportunity for authentic creative
                   self-expression. If you're feeling that vibe, we'll get along!
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   I live a moderately nomadic lifestyle and prefer to move with
                   the sun. My perfect life includes a house within walking
                   distance to a nice beach with waves, freedom to work where and
                   when I like, and a like-minded tribe of people surrounding me.
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   If you want to check out my latest UX Design work, you can see
                   everything I do (literally everything) on my GitLab timeline.
                   My latest illustrations and physical products are available in
@@ -365,35 +370,35 @@ function Hero() {
                   Instagram for more illustrations and a glimpse into my
                   process.
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   When I'm not making stuff, I like doing yoga, cooking, or
                   exploring new places.
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   If you think we should co-create something awesome together,
                   let me know!
                 </p>
               </div>
               <div className="p-8 border-t-[8px] border-[#002e4d]">
-                <h1 className="text-lg text-white mt-4">
-                  Current location: Bangkok, Thailand
+                <h1 className="text-base sm:text-lg text-white mt-4">
+                  Current location: New Delhi, India..
                 </h1>
               </div>
             </div>
             <div className="relative sm:w-[40%] border-[8px] sm:border-l-0 border-[#002e4d]">
-              <div className="flex flex-col p-8 text-white border-b-[8px] border-[#002e4d]">
+              <div className="flex flex-col p-6 sm:p-8 text-white border-b-[8px] border-[#002e4d]">
                 <h1 className="text-2xl text-[#f2a278] pb-8">
                   Projects and opportunities I'm interested in
                 </h1>
 
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   Software that enables creators. Think GitLab, GitHub, Figma,
                   Miro, Procreate, Affinity and the pke.
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   Digital illustration projects.
                 </p>
-                <p className="text-lg text-white mt-4">
+                <p className="text-base sm:text-lg text-white mt-4">
                   Creative surface design.
                 </p>
               </div>
@@ -405,10 +410,10 @@ function Hero() {
               </div>
               <div className="flex">
                 {/* Leavers  */}
-                <div class="absolute top-[49rem] sm:top-[51rem] left-[1.5rem] sm:left-[-38rem]">
+                <div class="absolute top-[43rem] sm:top-[51rem] left-[1.5rem] sm:left-[-38rem]">
                   <Image src={StarSvg} alt="StarSvg" className="" />
                 </div>
-                <div class="absolute top-[49rem] sm:top-[51rem] left-[16.5rem] sm:left-[20rem]">
+                <div class="absolute top-[43rem] sm:top-[51rem] left-[16.5rem] sm:left-[20rem]">
                   <Image src={StarSvg} alt="StarSvg" className="" />
                 </div>
               </div>
