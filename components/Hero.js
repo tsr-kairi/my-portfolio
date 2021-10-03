@@ -461,12 +461,12 @@ function Hero() {
                   <textarea class="w-full h-32 bg-[#002e4d] text-white mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
 
-                {/* <div className="relative flex mt-4 justify-center">
+                <div className="relative flex mt-4 justify-center">
                   <button className="relative z-50 transform hover:scale-110 duration-500 ease-in-out origin-center transition bg-[#f07b61] text-[#153956] uppercase text-sm font-bold tracking-wide w-[160px] h-[50px] mt-8">
                     SEND MESSAGE
                   </button>
                   <div className="absolute bg-[#002e4d] w-[160px] h-[50px] sm:left-28 left-[3rem] sm:right-[24rem] top-[3rem]"></div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
